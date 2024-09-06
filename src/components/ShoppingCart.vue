@@ -29,12 +29,7 @@ export default defineComponent({
   },
   // this is frank
   computed: {
-    totalPrice(): number {
-      return this.items.reduce(
-        (total, item) => total + item.price * item.quantity!, 
-        0
-      );
-    },
+     
   },
 });
 </script>

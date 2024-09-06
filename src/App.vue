@@ -37,12 +37,7 @@ export default defineComponent({
     },
     addToCart(product: Product) {
       // 要求这里补充完成
-      const existingItem = this.cartItems.find(item => item.id === product.id);
-      if (existingItem) {
-        existingItem.quantity!++;
-      } else {
-        this.cartItems.push({ ...product, quantity: 1 });
-      }
+      
     },
     removeFromCart(item: Product) {
       
